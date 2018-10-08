@@ -1,0 +1,121 @@
+[
+    [
+        "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app",
+        {
+            "sourcePath": "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1539006487460,
+            "changeTime": 1539006487460,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main",
+        {
+            "sourcePath": "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1539006487460,
+            "changeTime": 1539006487460,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default",
+        {
+            "sourcePath": "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1539006514107,
+            "changeTime": 1539006514107,
+            "contentHash": "d2f48b4ec12e8f477114d11568310a5eccf945aa",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 64,
+            "modifiedTime": 1539006487460,
+            "changeTime": 1539006487460,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default/class",
+        {
+            "sourcePath": "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default/class",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1539006542392,
+            "changeTime": 1539006542392,
+            "contentHash": "010927260e1949583218d9891d6c897b7e183d03",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default/class/UserName.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default/class/UserName.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 882,
+            "modifiedTime": 1539009203927,
+            "changeTime": 1539009203927,
+            "isWorkspace": false,
+            "contentHash": "60ac0941be5ecaa0b8b37e3c76eb0ed8d58efaaf"
+        }
+    ],
+    [
+        "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default/class/UserName.cls-meta.xml",
+        {
+            "sourcePath": "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest/force-app/main/default/class/UserName.cls-meta.xml",
+            "isDirectory": false,
+            "size": 186,
+            "modifiedTime": 1539006542393,
+            "changeTime": 1539006542393,
+            "contentHash": "45dde75b86522268aa2604909c4f1483bf35500b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest",
+        {
+            "sourcePath": "/Users/okarahan/Documents/Work/Projects/GitHub/ContinuationTest/ContinuationTest",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1539006498927,
+            "changeTime": 1539006498927,
+            "contentHash": "62533bf04610bd2b3dd430aef44fc35fe8f23ec0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
