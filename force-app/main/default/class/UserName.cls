@@ -1,6 +1,6 @@
 @RestResource(urlMapping='/Username/*')
 global with sharing class UserName {
-    
+
     @HttpGet
     global static String GiveMeUserName(){
 
@@ -16,6 +16,5 @@ global with sharing class UserName {
         }
 
         return 'My Name is a secret';
-
     }
 }
