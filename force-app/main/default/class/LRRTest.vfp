@@ -1,0 +1,48 @@
+<apex:page Controller="ContinuationDemoJSRemoting2">
+<apex:messages />
+
+    <script type="text/javascript">
+    var resultContainer = document.getElementById("resultContainer");
+
+    function callWithoutContinuation() {
+                
+        for (i = 0; i < 1; i++) {
+             Visualforce.remoting.Manager.invokeAction(
+            '{!$RemoteAction.ContinuationDemoJSRemoting2.callService}',1, 
+            handleResult, 
+            {escape: true});
+        }
+    }
+    
+    function callWithContinuation() {
+                
+        for (i = 0; i < 1; i++) {
+             Visualforce.remoting.Manager.invokeAction(
+            '{!$RemoteAction.ContinuationDemoJSRemoting2.callServiceWithContinuation}',1, 
+            handleResult, 
+            {escape: true});
+        }
+    }
+    
+    function handleResult(result, event){
+        if (event.status) {
+            resultContainer.innerHTML=resultContainer.innerHTML+'<br /> '+result; 
+            
+        } else if (event.type === 'exception') {
+            document.getElementById("responseErrors").innerHTML = 
+                event.message + "<br/>\n<pre>" + event.where + "</pre>";
+        } else {
+            document.getElementById("responseErrors").innerHTML = event.message;
+        }
+    }
+    </script>
+
+    <input id="acctSearch" type="text"/>
+    <button onclick="callWithoutContinuation()">Call Without Continuation</button>
+    <br/>
+    <input id="acctSearch" type="text"/>
+    <button onclick="callWithContinuation()">Call With Continuation</button>
+    <div id="responseErrors"></div>
+    <span id="resultContainer"></span>
+    
+</apex:page>
